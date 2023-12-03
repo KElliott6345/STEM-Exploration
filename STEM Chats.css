@@ -1,0 +1,804 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 61vh;
+    
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: white;
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.logo img{
+    width: 110px;
+}
+
+.chapters-head {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(118,88,168,255);
+    border: none;
+    padding: 25px 64px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.chapters-head:hover {
+    background: darkorchid;
+    transition: 1s;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 20px;
+    color: rgba(118,88,168,255);
+    font-weight: 500px;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 130%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgba(66,102,178,255);
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.background img{
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 100;
+}
+footer .footerContainer{
+    background-color: black;
+}
+
+.row{
+    display: flex;
+    justify-content:space-around;
+    padding: 40px 100px;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 100;
+}
+footer .container{
+    background-color: black;
+}
+
+.row{
+    display: flex;
+    justify-content:space-around;
+    padding: 40px 100px;
+}
+
+.footer-col ul{
+    list-style: none;
+    
+}
+    
+.footer-col h4{
+    color: white;
+    margin-bottom: 24px;
+    font-size: 22px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-col h4::before{
+    content: '';
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: rgba(118,88,168,255);
+    bottom: -10px;
+}
+
+.footer-col ul li{
+    padding: 10px 0;
+}
+
+.footer-col ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-col ul li a:hover{
+    opacity: 1;
+}
+
+.footer-col .donAndSpon{
+    padding: 0px 20px;
+    background-color: rgba(118,88,168,255);
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-col .donAndSpon:hover{
+    background-color: darkorchid;
+}
+
+
+.footer-col input{
+    border: none;
+    width: 250px;
+    height: 45px;
+    display: block;
+    padding-left: 20px;
+    margin: 14px 0;
+}
+
+.footer-col .inputSubmit{
+    padding: 0px 20px;
+    background-color: rgba(118,88,168,255);
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-col .inputSubmit:hover{
+    background-color: darkorchid;
+}
+.col p{
+    color: white;
+
+}
+
+.row .socialIcons i{
+    display: inline-block;
+    color: white;
+    opacity: 0.7;
+    font-size: 20px;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+
+.row .socialIcons i:hover{
+    color: purple;
+    opacity: 1;
+}
+
+@media (max-width: 600px){
+    footer .row{
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+
+    footer .footer-col ul{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-col input{
+        width: 100%;
+    }
+}
+
+.hero {
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 40%;
+    text-align: center;
+    margin-top: -600px;
+
+}
+
+.hero h1 {
+    font-size: 62px;
+}
+
+.hero p {
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 19px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid rgba(118,88,168,255);
+    background: rgba(118,88,168,255);
+    transition: 1s;
+}
+
+/*----- about -----*/
+
+.about {
+    width: 70%;
+    margin: auto;
+    padding-top: 500px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.about h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(118,88,168,255);
+}
+
+.about p {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 1.5;
+}
+
+.about .txt{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 1.5;
+    padding-right: 100px;
+}
+
+
+.about-btn {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(118,88,168,255);
+    border: none;
+    padding: 25px 64px;
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.about-btn:hover {
+    background: darkorchid;
+    transition: 1s;
+}
+
+.about img {
+    width: 700px;
+    padding-left: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/*---Chapters---*/
+
+.layout {
+    padding: 50px 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+    width: 100%;
+
+}
+
+.layout h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(118,88,168,255);
+}
+
+.layout p {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: left;
+}
+
+.layout .imgText {
+    display: flex;
+    align-items: center;
+
+}
+
+.layout-btn {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(118,88,168,255);
+    border: none;
+    padding: 25px 64px;
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.layout-btn:hover {
+    background: darkorchid;
+    transition: 1s;
+}
+
+.layout-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.layout-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.layout-col h3 {
+    text-align: left;
+    color: rgba(66,102,178,255);
+}
+
+/*----- STEM Showdown -----*/
+
+.STEMShowdown {
+    padding: 50px 300px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(imgs/vecteezy_abstract-technology-futuristic-glowing-blue-and-purple-light_11351207.jpg);
+    background-size: cover; /* Adjusts the image size to cover the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+
+}
+
+.STEMShowdown h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(118,88,168,255);
+}
+
+.STEMShowdown p {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.STEMShowdown .imgText {
+    display: flex;
+
+}
+
+.STEMShowdown-btn {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(118,88,168,255);
+    border: none;
+    padding: 25px 64px;
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.STEMShowdown-btn:hover {
+    background: darkorchid;
+    transition: 1s;
+}
+
+.STEMShowdown img {
+    width: 900px;
+    padding-left: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/*---STEMchats---*/
+
+.STEMchats {
+    padding: 50px 300px;
+    width: 100%;
+    margin: auto;
+    text-align: right;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+}
+
+.STEMchats h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(118,88,168,255);
+}
+
+.STEMchats p {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.STEMchats .imgText {
+    display: flex;
+
+}
+
+.STEMchats-btn {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(118,88,168,255);
+    border: none;
+    padding: 25px 64px;
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.STEMchats-btn:hover {
+    border: 1px solid darkorchid;
+    background: darkorchid;
+    transition: 1s;
+}
+
+.STEMchats img {
+    width: 400px;
+    height: auto;
+    margin-left: -50px;
+}
+
+.event-container {
+    display: grid;
+    gap: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+.event-box {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 50px 150px;
+    background-color: #f9f9f9;
+    
+}
+
+.event-box:hover {
+    border: 2px solid darkorchid;
+    border-radius: 20px;
+    transition: .38s ease;
+    transform: translateY(-10px);
+    padding: 50px 150px;
+    background-color: #f9f9f9;
+}
+
+.event-container a {
+    text-decoration: none;
+}
+
+.event-container h2 {
+    color: darkorchid;
+}
+
+.event-container p {
+    line-height: 1.5;
+    color: black;
+}
+
+.overview {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 50px;
+
+}
+
+.overview h1 {
+    padding-left: 100px;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(118,88,168,255);
+}
+
+.overview p {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+
+    line-height: 1.5;
+}
+
+.overview-btn {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(118,88,168,255);
+    border: none;
+    padding: 25px 64px;
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.overview-btn:hover {
+    background: darkorchid;
+    transition: 1s;
+}
+
+.overview img {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.counter-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10rem 9%;
+    display: grid;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.bigNum {
+    padding: 24px;
+}
+
+.bigNum span {
+    font-size: 62px;
+    color: white;
+}
+
+.bigNum p {
+    font-size: x-large;
+    color: black;
+    font-weight: bolder;
+}
+
+.money {
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding-right: 50px;
+    
+}
+
+.about h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.agendaBox {
+    padding-bottom: 75px;
+    background-color: whitesmoke;
+}
+
+.agenda-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: left; /* Center the content */
+    max-height: 900px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scroll if it exceeds the max height */
+    line-height: 3;
+  }
+.agenda-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+.agenda-item {
+    margin-bottom: 10px;
+    font-size: 1.2em; /* Increase font size for better readability */
+}
+
+.time {
+    font-weight: bold;
+    text-align: center;
+    color: rgba(118,88,168,255);
+}
+
+.agenda {
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    color: rgba(118,88,168,255);
+    padding-top: 60px;
+
+}
+
+.mentors {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 50px;
+    background-color: black;
+    background-size: cover;
+
+}
+
+.mentors h1 {
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.mentors h2 {
+    padding-left: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.mentors p {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+
+    line-height: 1.5;
+}
+
+.mentors-btn {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(118,88,168,255);
+    border: none;
+    padding: 25px 64px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+    
+}
+
+.buttonPad {
+    padding-left: 100px;
+}
+
+.mentors-btn:hover {
+    background: darkorchid;
+    transition: 1s;
+}
+
+.mentors img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.mentors-container {
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.mentorPad {
+    padding-bottom: 100px;
+}
+
+.money {
+    background-color: rgba(118,88,168,255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.wrapper {
+    position: relative;
+    width: 80vw;
+    transform: translate(-50%, 0);
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .container {
+    width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: darkmagenta;
+    border-bottom: 10px solid rgba(66,102,178,255);
+  }
+  i {
+    color: rgba(66,102,178,255);
+    font-size: 2.5em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+
+span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+    }
