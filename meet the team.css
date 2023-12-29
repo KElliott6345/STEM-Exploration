@@ -28,6 +28,30 @@ body {
     
 }
 
+.about .imgText {
+    display: flex;
+
+}
+
+.about-btn {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(118,88,168,255);
+    border: none;
+    padding: 25px 64px;
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.about-btn:hover {
+    background: darkorchid;
+    transition: 1s;
+}
+
+
 .logo img{
     width: 110px;
 }
@@ -219,7 +243,7 @@ footer .container{
     position: relative;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, 150%);
+    transform: translate(-50%, 100%);
     text-align: center;
     margin-top: -600px;
 

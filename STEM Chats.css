@@ -197,7 +197,7 @@ footer .container{
 }
 
 .row .socialIcons i:hover{
-    color: purple;
+    color: rgba(118,88,168,255);
     opacity: 1;
 }
 

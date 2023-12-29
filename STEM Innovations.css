@@ -36,7 +36,7 @@ body {
     display: inline-flex;
     text-decoration: none;
     color: white;
-    background-color: purple;
+    background-color: rgba(118,88,168,255);
     border: none;
     padding: 25px 64px;
     font-size: 20px;
@@ -53,7 +53,7 @@ body {
 .navbar a {
     position: relative;
     font-size: 20px;
-    color: purple;
+    color: rgba(118,88,168,255);
     font-weight: 500px;
     text-decoration: none;
     margin-left: 70px;
@@ -197,7 +197,7 @@ footer .container{
 }
 
 .row .socialIcons i:hover{
-    color: purple;
+    color: rgba(118,88,168,255);
     opacity: 1;
 }
 
@@ -252,8 +252,8 @@ footer .container{
 }
 
 .hero-btn:hover {
-    border: 1px solid purple;
-    background: purple;
+    border: 1px solid rgba(118,88,168,255);
+    background: rgba(118,88,168,255);
     transition: 1s;
 }
 
@@ -273,7 +273,7 @@ footer .container{
 .about h1 {
     font-size: 50px;
     font-weight: 600;
-    color: purple;
+    color: rgba(118,88,168,255);
 }
 
 .about p {
@@ -302,7 +302,7 @@ footer .container{
     display: inline-flex;
     text-decoration: none;
     color: white;
-    background-color: purple;
+    background-color: rgba(118,88,168,255);
     border: none;
     padding: 25px 64px;
     font-size: 25px;
@@ -340,7 +340,7 @@ footer .container{
 .layout h1 {
     font-size: 50px;
     font-weight: 600;
-    color: purple;
+    color: rgba(118,88,168,255);
 }
 
 .layout p {
@@ -363,7 +363,7 @@ footer .container{
     display: inline-flex;
     text-decoration: none;
     color: white;
-    background-color: purple;
+    background-color: rgba(118,88,168,255);
     border: none;
     padding: 25px 64px;
     font-size: 25px;
@@ -412,7 +412,7 @@ footer .container{
 .STEMShowdown h1 {
     font-size: 50px;
     font-weight: 600;
-    color: purple;
+    color: rgba(118,88,168,255);
 }
 
 .STEMShowdown p {
@@ -433,7 +433,7 @@ footer .container{
     display: inline-flex;
     text-decoration: none;
     color: white;
-    background-color: purple;
+    background-color: rgba(118,88,168,255);
     border: none;
     padding: 25px 64px;
     font-size: 25px;
@@ -469,7 +469,7 @@ footer .container{
 .STEMchats h1 {
     font-size: 50px;
     font-weight: 600;
-    color: purple;
+    color: rgba(118,88,168,255);
 }
 
 .STEMchats p {
@@ -490,7 +490,7 @@ footer .container{
     display: inline-flex;
     text-decoration: none;
     color: white;
-    background-color: purple;
+    background-color: rgba(118,88,168,255);
     border: none;
     padding: 25px 64px;
     font-size: 25px;
@@ -561,7 +561,7 @@ footer .container{
     padding-left: 100px;
     font-size: 50px;
     font-weight: 600;
-    color: purple;
+    color: rgba(118,88,168,255);
 }
 
 .overview p {
@@ -580,7 +580,7 @@ footer .container{
     display: inline-flex;
     text-decoration: none;
     color: white;
-    background-color: purple;
+    background-color: rgba(118,88,168,255);
     border: none;
     padding: 25px 64px;
     font-size: 25px;
@@ -666,14 +666,14 @@ footer .container{
 .time {
     font-weight: bold;
     text-align: center;
-    color: purple;
+    color: rgba(118,88,168,255);
 }
 
 .agenda {
     font-weight: 600;
     font-size: 50px;
     text-align: center;
-    color: purple;
+    color: rgba(118,88,168,255);
     padding-top: 60px;
 
 }
@@ -721,7 +721,7 @@ footer .container{
     display: inline-flex;
     text-decoration: none;
     color: white;
-    background-color: purple;
+    background-color: rgba(118,88,168,255);
     border: none;
     padding: 25px 64px;
     font-size: 15px;
@@ -756,7 +756,7 @@ footer .container{
 }
 
 .money {
-    background-color: purple;
+    background-color: rgba(118,88,168,255);
     padding-top: 50px;
     padding-bottom: 50px;
 }

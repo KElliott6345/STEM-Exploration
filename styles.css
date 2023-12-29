@@ -445,7 +445,7 @@ footer {
     padding-left: 500px;
     font-size: 50px;
     font-weight: 600;
-    color: purple;
+    color: rgba(118,88,168,255);
 }
 
 .STEMChats p {
@@ -464,7 +464,7 @@ footer {
     display: inline-flex;
     text-decoration: none;
     color: white;
-    background-color: purple;
+    background-color: rgba(118,88,168,255);
     border: none;
     padding: 25px 64px;
     font-size: 25px;
@@ -517,7 +517,8 @@ footer {
     border-color: rgba(66,102,178,255);
   }
   i {
-    color: white;
+    color: white
+    ;
     font-size: 2.5em;
     text-align: center;
   }
@@ -553,7 +554,7 @@ span.text {
 .STEMInnovations h1 {
     font-size: 50px;
     font-weight: 600;
-    color: purple;
+    color: rgba(118,88,168,255);
 }
 
 .STEMInnovations p {
@@ -582,7 +583,7 @@ span.text {
     display: inline-flex;
     text-decoration: none;
     color: white;
-    background-color: purple;
+    background-color: rgba(118,88,168,255);
     border: none;
     padding: 25px 64px;
     font-size: 25px;
