@@ -260,12 +260,17 @@ footer .container{
 /*----- about -----*/
 
 .about {
-    width: 70%;
     margin: auto;
+    padding-left: 100px;
     padding-top: 250px;
     padding-bottom: 50px;
     display: flex;
     align-items: center;
+    background-image: url(imgs/simple-pattern.jpg);
+    background-size: cover; /* Adjusts the image size to cover the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    
 
 }
 
@@ -277,6 +282,8 @@ footer .container{
 }
 
 .about p {
+    width: 70%;
+    padding-left: 50px;
     color: black;
     font-size: 20px;
     font-weight: 300;
@@ -317,11 +324,12 @@ footer .container{
 }
 
 .about img {
-    padding-top: 75px;
-    width: 700px;
-    padding-left: 100px;
+    width: 650px;
     height: auto;
     border-radius: 20px;
+    transform: translate(-160px, 0);
+    border: 2px solid darkorchid;
+
 }
 
 /*---Chapters---*/
@@ -332,7 +340,9 @@ footer .container{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: whitesmoke;
+    background-image: url(imgs/stem\ back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
 
 }
@@ -527,15 +537,6 @@ footer .container{
     
 }
 
-.event-box:hover {
-    border: 2px solid darkorchid;
-    border-radius: 20px;
-    transition: .38s ease;
-    transform: translateY(-10px);
-    padding: 50px 150px;
-    background-color: #f9f9f9;
-}
-
 .event-container a {
     text-decoration: none;
 }
@@ -638,7 +639,9 @@ footer .container{
 
 .agendaBox {
     padding-bottom: 75px;
-    background-color: whitesmoke;
+    background-image: url(imgs/simple-pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .agenda-container {

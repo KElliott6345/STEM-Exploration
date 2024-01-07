@@ -260,12 +260,16 @@ footer .container{
 /*----- about -----*/
 
 .about {
-    width: 70%;
     margin: auto;
+    padding-left: 100px;
     padding-top: 500px;
     padding-bottom: 50px;
     display: flex;
     align-items: center;
+    background-image: url(imgs/Stem\ art\ 3.jpg);
+    background-size: cover; /* Adjusts the image size to cover the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 
 }
 
@@ -274,9 +278,12 @@ footer .container{
     font-size: 50px;
     font-weight: 600;
     color: rgba(118,88,168,255);
+    transform: translate(0, 130px);
 }
 
 .about p {
+    width: 70%;
+    padding-left: 50px;
     color: black;
     font-size: 20px;
     font-weight: 300;
@@ -284,6 +291,7 @@ footer .container{
     padding-top: 25px;
     padding-bottom: 25px;
     line-height: 1.5;
+    transform: translate(0, 130px);
 }
 
 .about .txt{
@@ -296,6 +304,8 @@ footer .container{
     line-height: 1.5;
     padding-right: 100px;
 }
+
+
 
 
 .about-btn {
@@ -333,6 +343,8 @@ footer .container{
     padding-bottom: 100px;
     background-color: whitesmoke;
     width: 100%;
+    
+    
 
 }
 
@@ -549,29 +561,35 @@ footer .container{
 }
 
 .overview {
-    width: 70%;
+    width: 100%;
     margin: auto;
     text-align: left;
     padding-bottom: 50px;
-
+    background-image: url(imgs/simple-pattern.jpg);
+    background-size: cover; /* Adjusts the image size to cover the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    
 }
 
 .overview h1 {
-    padding-left: 100px;
+    padding-left: 150px;
     font-size: 50px;
     font-weight: 600;
     color: rgba(118,88,168,255);
+    transform: translate(100px, 100px);
 }
 
 .overview p {
     color: black;
+    width: 70%;
     font-size: 20px;
     font-weight: 300;
     line-height: 50px;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 100px;
-
+    padding-left: 200px;
+    transform: translate(100px, 100px);
     line-height: 1.5;
 }
 
@@ -594,9 +612,10 @@ footer .container{
 }
 
 .overview img {
-    width: 600px;
+    width: 650px;
     height: auto;
     border-radius: 20px;
+    transform: translate(100px, 100px);
 }
 
 .counter-wrapper {
