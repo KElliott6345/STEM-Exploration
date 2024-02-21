@@ -488,3 +488,17 @@ footer .container{
     margin-left: -50px;
 }
 
+
+@media (700px <= width <= 1300px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    body {
+        min-height: 61vh;
+        zoom: 67%;
+    }
+}

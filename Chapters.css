@@ -51,7 +51,6 @@ body {
 }
 
 .navbar a {
-    position: relative;
     font-size: 20px;
     color: rgba(118,88,168,255);
     font-weight: 500px;
@@ -676,3 +675,17 @@ span.text {
     line-height: 0;
     
     }
+
+@media (700px <= width <= 1300px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    body {
+        min-height: 61vh;
+        zoom: 67%;
+    }
+}
